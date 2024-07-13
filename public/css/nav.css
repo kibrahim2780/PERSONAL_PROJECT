@@ -1,0 +1,81 @@
+.nav-link.active:hover {
+    color: white !important;
+}
+.custom-header{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Segoe UI";
+    line-height: 18px;
+}
+.custom-header-2{
+
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Segoe UI";
+
+}
+.custom-div{
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.custom-paragraph{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Segoe UI";
+    text-align: justify;
+    color: black;
+}
+.custom-footer-header{
+    padding: 10px;
+}
+.custom-footer-2{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.custom-link-1{
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    font-family: "Segoe UI";
+}
+.custom-padding-div-1{
+    padding-right: 47px;
+}
+
+.custom-image-2{
+    height: 574px;
+    width: 100%;
+}
+
+.custom-image-3{
+    height: 800px;
+    width: 100%;
+}
+.custom-image-4{
+    width: 302px;
+    height: 224px;
+}
+.pie-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.pie-container canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    border-radius: 50%;
+}
+
+.pie-container {
+    position: relative;
+    width: 197px;
+    height: 197px;
+}
+
+
