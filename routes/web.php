@@ -15,4 +15,10 @@ Route::get('/product' , function (){
 Route::get('/exihibition' , function (){
     return view('exhibition');
 });
+Route::get('/service' , function (){
+   return view('services');
+});
+Route::get('/support' , function (){
+   return view('customer-support');
+});
 Route::get('/', [PieChartController::class, 'index']);

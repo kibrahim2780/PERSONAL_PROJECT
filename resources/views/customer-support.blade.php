@@ -41,9 +41,6 @@
                         <a class="nav-link active" href="/exihibition">Exhibition</a>
                     </li>
                     <li class="nav-item custom-header">
-                        <a class="nav-link active" href="/service">Services</a>
-                    </li>
-                    <li class="nav-item custom-header">
                         <a class="nav-link active" href="/support">Customer support</a>
                     </li>
                 </ul>
@@ -51,28 +48,16 @@
         </div>
     </nav>
 </header>
-<section class="container-fluid" style="padding: 0; margin-bottom: 35px;">
+<section class="container-fluid" style="padding: 0;     margin-bottom: 313px;
+    margin-top: 100px;">
     <div class="custom-div">
-        <h3 class="custom-header-2 text-center text-decoration-underline mb-2" style="margin: 0">
-            About <span style="color:orangered ">ZM Enterprises</span>
+        <h3 class="custom-header-2 text-center text-decoration-underline mb-2" style="margin-bottom: 20px; ">
+            Customer Support
         </h3>
-        <p class="custom-paragraph">
-            ZM Chemicals are leading pharmaceutical indenting company in Pakistan. We rank among the top most companies of chemicals and raw material sale and purchase and provide the best compromise between cost, speed and reliability.
+        <p class="custom-paragraph" style="font-size: 18px" >
+            At <strong>ZM Enterprises</strong> , we understand that the punctual, safe and cost-effective delivery of all your consignments is a fundamental aim of any indenting organization. Whatever your order, urgent, high value or sale or purchase, our commitment is to provide the best solution of all your business needs ranging from minimum to optimized rates.
 
-            The target groups of ZM Chemicals are those customers of which the pharmaceutical raw material for them is the core consideration. We seek to distinguish ourselves by providing the most possible flexibility and reliability in customer service. Our global agency network enables clients to benefit from a package tailored to their individual need and time requirement. As an accredited intermediary in pharmaceutical raw material chain.
-
-            ZM Chemicals keep the promise that gave to your customers. just in time.
-
-            Mr Rana Mahmood and Mr Rana Masood founded ZM Chemicals on the 20th Jan, 2002. Simultaneously an office was opened at the Kashmir business Center to carry out all trading and afterward indenting operations. The Director  acquired wide knowledge and experience with long year of working for the International chemical indenting business, having there by occupied leading position Over the year, the company successfully acquired a highly satisfied number of customers.
-        </p>
-        <h3 class="custom-header-2 text-center text-decoration-underline mt-4 mb-2" style="margin: 0">
-            ZME<span style="color:orangered ">Management</span>
-        </h3>
-        <p>
-            ZM Chemicals chain management services are designed to ensure that each step of your indenting and trading and eventually logistics chain is carefully coordinated and managed. Our staff is comprised of professional who are committed to securing the process so as to meet your requirement given our network of agents and logistics partners.
-
-
-            Around the global, we are in a position to support your buying, selling and logistics processes anywhere in the world. ZM Chemicals have the prime motive to serve both buyer as well as the seller with the prime objective to serve both the parties with great loyalty and honestly.
+            Our comprehensive database of all type chemicals and raw materials for pharmaceutical industry is constantly updated with current locations and availability. Using this knowledge, we aim to provide our clients with the right advice at the time and at the best price to meet all your trading requirements.
         </p>
     </div>
 

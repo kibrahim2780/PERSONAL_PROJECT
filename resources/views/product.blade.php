@@ -51,6 +51,12 @@
                     <li class="nav-item custom-header">
                         <a class="nav-link active" href="/exihibition">Exhibition</a>
                     </li>
+                    <li class="nav-item custom-header">
+                        <a class="nav-link active" href="/service">Services</a>
+                    </li>
+                    <li class="nav-item custom-header">
+                        <a class="nav-link active" href="/support">Customer support</a>
+                    </li>
                 </ul>
             </div>
         </div>
