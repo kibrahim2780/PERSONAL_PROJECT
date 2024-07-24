@@ -102,11 +102,67 @@
             <img src="/zm-pics-2/IMG-20240708-WA0020.jpg" class="custom-image-4"  alt="">
         </div>
     </div>
+    <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 4</div>
+                <img src="img1_wide.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 4</div>
+                <img src="img2_wide.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 4</div>
+                <img src="img3_wide.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 4</div>
+                <img src="img4_wide.jpg" style="width:100%">
+            </div>
+
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Caption text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <!-- Thumbnail image controls -->
+            <div class="column">
+                <img class="demo" src="img1.jpg" onclick="currentSlide(1)" alt="Nature">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="img2.jpg" onclick="currentSlide(2)" alt="Snow">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="img3.jpg" onclick="currentSlide(3)" alt="Mountains">
+            </div>
+
+            <div class="column">
+                <img class="demo" src="img4.jpg" onclick="currentSlide(4)" alt="Lights">
+            </div>
+        </div>
+    </div>
 </section>
 <footer class="container-fluid" style="padding: 0; background-color: orangered">
     <div class="d-flex justify-content-between custom-footer-2">
         <div class="custom-footer-header">
-            <img src="/WhatsApp Image 2024-06-22 at 18.12.31_a31864d9.jpg" alt="" style="width: 20%">
+            <div class="d-flex flex-column align-items-center">
+                <img src="/WhatsApp_Image_2024-06-22_at_18.12.31_a31864d9-removebg-preview (1).png" alt=""
+                     style="width: 100px">
+                <h3 style="font-size: 32px; font-weight: 600">Zm Enterprises</h3>
+                <p class="text-white">Let's Work Together</p>
+            </div>
             <p class="custom-paragraph" style="width: 400px; font-weight: 600; margin-top: 30px">
                 ZM Chemicals are leading pharmaceutical indenting company in Pakistan. We rank among the top most
                 companies of chemicals and raw material sale and purchase and provide the best compromise between cost,

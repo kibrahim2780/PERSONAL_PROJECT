@@ -94,7 +94,7 @@
             </tr>
             <tr>
                 <th scope="row">6</th>
-                <td>	Cetyle Alcohol </td>
+                <td>Cetyle Alcohol </td>
             </tr>
             <tr>
                 <th scope="row">7</th>
@@ -102,7 +102,7 @@
             </tr>
             <tr>
                 <th scope="row">8</th>
-                <td>Citric Acid Mono</td>
+                <td data-bs-toggle="modal" data-bs-target="#exampleModal15">Citric Acid Mono</td>
             </tr>
             <tr>
                 <th scope="row">9</th>
@@ -122,7 +122,7 @@
             </tr>
             <tr>
                 <th scope="row">13</th>
-                <td>	Hydrogen Peroxide
+                <td>Hydrogen Peroxide</td>
             </tr>
             <tr>
                 <th scope="row">14</th>
@@ -130,7 +130,7 @@
             </tr>
             <tr>
                 <th scope="row">15</th>
-                <td data-bs-toggle="modal" data-bs-target="#exampleModal5">	Hydroxypropyl Methylcellulose (HPMC) K15</td>
+                <td data-bs-toggle="modal" data-bs-target="#exampleModal5">Hydroxypropyl Methylcellulose (HPMC) K15</td>
             </tr>
             <tr>
                 <th scope="row">16</th>
@@ -138,15 +138,15 @@
             </tr>
             <tr>
                 <th scope="row">17</th>
-                <td>	Lactose Monohydrate</td>
+                <td data-bs-toggle="modal" data-bs-target="#exampleModal13">Lactose Monohydrate</td>
             </tr>
             <tr>
                 <th scope="row">18</th>
-                <td>Lactose SD</td>
+                <td data-bs-toggle="modal" data-bs-target="#exampleModal14">Lactose SD</td>
             </tr>
             <tr>
                 <th scope="row">19</th>
-                <td>	Magnesium Stearate</td>
+                <td>Magnesium Stearate</td>
             </tr>
             <tr>
                 <th scope="row">20</th>
@@ -154,7 +154,7 @@
             </tr>
             <tr>
                 <th scope="row">21</th>
-                <td>	Methacrylic Acid E100</td>
+                <td>Methacrylic Acid E100</td>
             </tr>
             <tr>
                 <th scope="row">22</th>
@@ -166,7 +166,7 @@
             </tr>
             <tr>
                 <th scope="row">24</th>
-                <td>	Microcrystalline Cellulose 101</td>
+                <td>Microcrystalline Cellulose 101</td>
             </tr>
             <tr>
                 <th scope="row">25</th>
@@ -178,31 +178,31 @@
             </tr>
             <tr>
                 <th scope="row">27</th>
-                <td>	Migloyl Oil </td>
+                <td>Migloyl Oil</td>
             </tr>
             <tr>
                 <th scope="row">28</th>
-                <td>	PEG 6000</td>
+                <td>PEG 6000</td>
             </tr>
             <tr>
                 <th scope="row">29</th>
-                <td>	Poly Sucralose</td>
+                <td>Poly Sucralose</td>
             </tr>
             <tr>
                 <th scope="row">30</th>
-                <td>	Methacrylic Acid L100</td>
+                <td>Methacrylic Acid L100</td>
             </tr>
             <tr>
                 <th scope="row">31</th>
-                <td>	Potasium Sorbate</td>
+                <td>Potasium Sorbate</td>
             </tr>
             <tr>
                 <th scope="row">32</th>
-                <td>	Pottasium Chloride</td>
+                <td>Pottasium Chloride</td>
             </tr>
             <tr>
                 <th scope="row">33</th>
-                <td>	Propyle Peraben Plain</td>
+                <td>Propyle Peraben Plain</td>
             </tr>
             <tr>
                 <th scope="row">34</th>
@@ -210,15 +210,15 @@
             </tr>
             <tr>
                 <th scope="row">36</th>
-                <td>	PROPYLENE GLYCOL</td>
+                <td data-bs-toggle="modal" data-bs-target="#exampleModal11">PROPYLENE GLYCOL</td>
             </tr>
             <tr>
                 <th scope="row">37</th>
-                <td>	PVP K30</td>
+                <td>PVP K30</td>
             </tr>
             <tr>
                 <th scope="row">38</th>
-                <td>	Sodium Benzoate</td>
+                <td>Sodium Benzoate</td>
             </tr>
             <tr>
                 <th scope="row">39</th>
@@ -226,12 +226,9 @@
             </tr>
             <tr>
                 <th scope="row">40</th>
-                <td>	Sodium Citrate </td>
+                <td data-bs-toggle="modal" data-bs-target="#exampleModal12">Sodium Citrate</td>
             </tr>
-            <tr>
-                <th scope="row">41</th>
-                <td>	Sodium Citrate </td>
-            </tr>
+
             <tr>
                 <th scope="row">42</th>
                 <td>Sodium Saccharin</td>
@@ -246,15 +243,15 @@
             </tr>
             <tr>
                 <th scope="row">45</th>
-                <td>	Steric Acid </td>
+                <td>Steric Acid </td>
             </tr>
             <tr>
                 <th scope="row">46</th>
-                <td>	Tween 80</td>
+                <td>Tween 80</td>
             </tr>
             <tr>
                 <th scope="row">47</th>
-                <td>	Xanthan Gum</td>
+                <td>Xanthan Gum</td>
             </tr>
 
             </tbody>
@@ -381,12 +378,77 @@
             </div>
         </div>
     </div>
+    <div class="modal fade bg-black"  id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" >
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="product-image-2/propyleneglycol.jpg" alt="" style="width: 100%">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade bg-black"  id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" >
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="/product-image-2/sodiumcitrate.jpg" alt="" style="width: 100%">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade bg-black"  id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" >
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="/product-image-2/lactose imp.jpg" alt="" style="width: 100%">
+                </div>
+            </div>
+        </div>
+    </div>
+ <div class="modal fade bg-black"  id="exampleModal14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" >
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="/product-image-2/lactose imp.jpg" alt="" style="width: 100%">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade bg-black"  id="exampleModal14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" >
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="/product-image-2/citricacid.jpg" alt="" style="width: 100%">
+                </div>
+            </div>
+        </div>
+    </div>
 
 </section>
 <footer class="container-fluid" style="padding: 0; background-color: orangered">
     <div class="d-flex justify-content-between custom-footer-2">
         <div class="custom-footer-header">
-            <img src="/WhatsApp Image 2024-06-22 at 18.12.31_a31864d9.jpg" alt="" style="width: 20%">
+            <div class="d-flex flex-column align-items-center">
+                <img src="/WhatsApp_Image_2024-06-22_at_18.12.31_a31864d9-removebg-preview (1).png" alt=""
+                     style="width: 100px">
+                <h3 style="font-size: 32px; font-weight: 600">Zm Enterprises</h3>
+                <p class="text-white">Let's Work Together</p>
+            </div>
             <p class="custom-paragraph" style="width: 400px; font-weight: 600; margin-top: 30px">
                 ZM Chemicals are leading pharmaceutical indenting company in Pakistan. We rank among the top most
                 companies of chemicals and raw material sale and purchase and provide the best compromise between cost,

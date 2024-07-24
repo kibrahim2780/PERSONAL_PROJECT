@@ -11,7 +11,7 @@
     <title>ZM Enterprises</title>
 </head>
 <body>
-<header>
+<header class="custom-header-10">
     <nav class="navbar navbar-expand-lg " style="background-color: orangered">
         <div class="container-fluid d-flex">
             {{--          <a class="navbar-brand" href="#">Navbar</a>--}}
@@ -115,22 +115,52 @@
     </div>
 
 
-    <div class="d-flex" style="padding-left: 150px;
-    padding-right: 150px;">
+    <div class="d-flex justify-content-center" style="padding-left: 180px;
+    padding-right: 180px; gap: 45px; margin-top: 30px">
         <div class="d-flex flex-column">
             <div class="pie-container">
-                <canvas id="pieCanvas" height="180" width="180"></canvas>
+                <a href="/product"><canvas id="pieCanvas" height="180" width="180"></canvas></a>
             </div>
-            <span>Pharmaceutical Excipients</span>
+            <span style="font-weight: bold">Packaged Chemical Drums</span>
+        </div>
+        <div class="d-flex flex-column">
+            <div class="pie-container">
+                <a href="/product"><canvas id="pieCanvas2" height="180" width="180"></canvas></a>
+            </div>
+            <span class="text-center " style="font-weight: bold">Fumed Silica</span>
+        </div>
+        <div class="d-flex flex-column">
+            <div class="pie-container">
+                <a href="/product"> <canvas id="pieCanvas3" height="180" width="180"></canvas></a>
+            </div>
+            <span class="text-center" style="font-weight:bold;">Chemicals Drums</span>
         </div>
     </div>
 
+    <div class="d-flex flex-column align-items-center" style="margin-top: 60px">
+        <div style="margin-bottom: 30px">
+            <h3 style="font-size: 45px; font-weight: bold">We deliver all over <span style="color: orangered">Pakistan</span></h3>
+        </div>
+        <div>
+            <img src="/pngwing.com.png" alt="" style="width: 550px">
+        </div>
+    </div>
 
+    <div>
+
+        <h3></h3>
+
+    </div>
 </section>
 <footer class="container-fluid" style="padding: 0; background-color: orangered">
     <div class="d-flex justify-content-between custom-footer-2">
         <div class="custom-footer-header">
-            <img src="/WhatsApp Image 2024-06-22 at 18.12.31_a31864d9.jpg" alt="" style="width: 20%">
+            <div class="d-flex flex-column align-items-center">
+                <img src="/WhatsApp_Image_2024-06-22_at_18.12.31_a31864d9-removebg-preview (1).png" alt=""
+                     style="width: 100px">
+                <h3 style="font-size: 32px; font-weight: 600">Zm Enterprises</h3>
+                <p class="text-white">Let's Work Together</p>
+            </div>
             <p class="custom-paragraph" style="width: 400px; font-weight: 600; margin-top: 30px">
                 ZM Chemicals are leading pharmaceutical indenting company in Pakistan. We rank among the top most
                 companies of chemicals and raw material sale and purchase and provide the best compromise between cost,
@@ -168,8 +198,96 @@
     document.addEventListener("DOMContentLoaded", function () {
         const canvas = document.getElementById('pieCanvas');
         const ctx = canvas.getContext('2d');
-        const percent = 50; // Adjust percentage here
+        const percent = 80; // Adjust percentage here
         const imagePath = "{{ $chartData['imagePath'] }}"; // Replace with actual image path
+
+        const centerX = canvas.width / 2;
+        const centerY = canvas.height / 2;
+        const radius = Math.min(centerX, centerY);
+
+        // Load and draw the image
+        const img = new Image();
+        img.onload = function () {
+            // Clear canvas
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Clip the image within a circular region
+            ctx.save();
+            ctx.beginPath();
+            ctx.arc(centerX, centerY, radius, 0, Math.PI * 2);
+            ctx.closePath();
+            ctx.clip();
+            ctx.drawImage(img, centerX - radius, centerY - radius, radius * 2, radius * 2);
+            ctx.restore();
+
+            // Draw the border around the clipped image
+            drawBorderAroundImage(ctx, centerX, centerY, radius, percent);
+        };
+        img.src = imagePath;
+
+        function drawBorderAroundImage(ctx, x, y, radius, percent) {
+            // Calculate angles for the border based on percentage
+            const startAngle = -Math.PI / 2; // Start angle at 12 o'clock position
+            const endAngle = startAngle + (percent / 100) * (Math.PI * 2); // Calculate end angle
+
+            // Draw the border
+            const borderWidth = 20; // Width of the border
+            ctx.beginPath();
+            ctx.arc(x, y, radius, startAngle, endAngle);
+            ctx.strokeStyle = '#FF4500'; // Adjust color of the border
+            ctx.lineWidth = borderWidth;
+            ctx.stroke();
+        }
+    });
+    document.addEventListener("DOMContentLoaded", function () {
+        const canvas = document.getElementById('pieCanvas2');
+        const ctx = canvas.getContext('2d');
+        const percent = 50; // Adjust percentage here
+        const imagePath = "{{ $chartData['imagePath2'] }}"; // Replace with actual image path
+
+        const centerX = canvas.width / 2;
+        const centerY = canvas.height / 2;
+        const radius = Math.min(centerX, centerY);
+
+        // Load and draw the image
+        const img = new Image();
+        img.onload = function () {
+            // Clear canvas
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Clip the image within a circular region
+            ctx.save();
+            ctx.beginPath();
+            ctx.arc(centerX, centerY, radius, 0, Math.PI * 2);
+            ctx.closePath();
+            ctx.clip();
+            ctx.drawImage(img, centerX - radius, centerY - radius, radius * 2, radius * 2);
+            ctx.restore();
+
+            // Draw the border around the clipped image
+            drawBorderAroundImage(ctx, centerX, centerY, radius, percent);
+        };
+        img.src = imagePath;
+
+        function drawBorderAroundImage(ctx, x, y, radius, percent) {
+            // Calculate angles for the border based on percentage
+            const startAngle = -Math.PI / 2; // Start angle at 12 o'clock position
+            const endAngle = startAngle + (percent / 100) * (Math.PI * 2); // Calculate end angle
+
+            // Draw the border
+            const borderWidth = 20; // Width of the border
+            ctx.beginPath();
+            ctx.arc(x, y, radius, startAngle, endAngle);
+            ctx.strokeStyle = '#FF4500'; // Adjust color of the border
+            ctx.lineWidth = borderWidth;
+            ctx.stroke();
+        }
+    });
+    document.addEventListener("DOMContentLoaded", function () {
+        const canvas = document.getElementById('pieCanvas3');
+        const ctx = canvas.getContext('2d');
+        const percent = 100; // Adjust percentage here
+        const imagePath = "{{ $chartData['imagePath3'] }}"; // Replace with actual image path
 
         const centerX = canvas.width / 2;
         const centerY = canvas.height / 2;

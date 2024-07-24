@@ -11,7 +11,9 @@ class PieChartController extends Controller
 
         $chartData = [
             'percent' => 79,
-            'imagePath' => '/Product-image/images.jpeg'
+            'imagePath' => '/product-image-2/WhatsApp Image 2024-07-13 at 16.42.27_346345ea.jpg',
+            'imagePath2' => '/product-image-2/WhatsApp Image 2024-07-13 at 16.24.47_cfccafa3.jpg',
+            'imagePath3' => '/images (1).jpeg',
         ];
 
         return view('welcome', ['chartData' => $chartData]);

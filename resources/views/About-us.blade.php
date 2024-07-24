@@ -75,7 +75,12 @@
 <footer class="container-fluid" style="padding: 0; background-color: orangered">
     <div class="d-flex justify-content-between custom-footer-2">
         <div class="custom-footer-header">
-            <img src="/WhatsApp Image 2024-06-22 at 18.12.31_a31864d9.jpg" alt="" style="width: 20%">
+            <div class="d-flex flex-column align-items-center">
+                <img src="/WhatsApp_Image_2024-06-22_at_18.12.31_a31864d9-removebg-preview (1).png" alt=""
+                     style="width: 100px">
+                <h3 style="font-size: 32px; font-weight: 600">Zm Enterprises</h3>
+                <p class="text-white">Let's Work Together</p>
+            </div>
             <p class="custom-paragraph" style="width: 400px; font-weight: 600; margin-top: 30px">
                 ZM Chemicals are leading pharmaceutical indenting company in Pakistan. We rank among the top most
                 companies of chemicals and raw material sale and purchase and provide the best compromise between cost,

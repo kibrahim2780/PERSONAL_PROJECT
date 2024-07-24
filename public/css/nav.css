@@ -78,4 +78,29 @@
     height: 197px;
 }
 
+#pieCanvas {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+a:hover #pieCanvas {
+    transform: translateY(-10px); /* Moves the canvas up */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
+}
+#pieCanvas2 {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+a:hover #pieCanvas2 {
+    transform: translateY(-10px); /* Moves the canvas up */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
+}
+#pieCanvas3 {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+a:hover #pieCanvas3 {
+    transform: translateY(-10px); /* Moves the canvas up */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
+}
+
 
