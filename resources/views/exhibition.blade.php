@@ -15,12 +15,17 @@
     <nav class="navbar navbar-expand-lg " style="background-color: orangered">
         <div class="container-fluid d-flex">
             {{--          <a class="navbar-brand" href="#">Navbar</a>--}}
-            <div class="d-flex flex-column align-items-center">
-                <img src="/WhatsApp_Image_2024-06-22_at_18.12.31_a31864d9-removebg-preview (1).png" alt=""
-                     style="width: 100px">
-                <h3 style="font-size: 32px; font-weight: 600">Zm Enterprises</h3>
-                <p class="text-white">Let's Work Together</p>
-            </div>
+            <a href="/" style="text-decoration: none; color: #000000">
+                <div class="d-flex flex-column align-items-center">
+
+                    <img src="/WhatsApp_Image_2024-06-22_at_18.12.31_a31864d9-removebg-preview (1).png" alt=""
+                         style="width: 100px">
+
+                    <h3 style="font-size: 32px; font-weight: 600">Zm Enterprises</h3>
+                    <p class="text-white">Let's Work Together</p>
+
+                </div>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">

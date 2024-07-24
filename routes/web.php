@@ -21,4 +21,7 @@ Route::get('/service' , function (){
 Route::get('/support' , function (){
    return view('customer-support');
 });
+Route::get('/contact' , function (){
+   return view('contact-us');
+});
 Route::get('/', [PieChartController::class, 'index']);

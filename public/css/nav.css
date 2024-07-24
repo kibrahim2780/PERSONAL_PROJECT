@@ -102,5 +102,14 @@ a:hover #pieCanvas3 {
     transform: translateY(-10px); /* Moves the canvas up */
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
 }
+.custom-button-shedule{
+    background-color: orangered !important;
+    color: white !important;
+    text-decoration: none !important;
+    border-radius: 0 !important;
+    width: 322px !important;
+    font-size: 28px !important;
+    font-weight: 500 !important;
+}
 
 

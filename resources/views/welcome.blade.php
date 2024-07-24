@@ -13,14 +13,20 @@
 <body>
 <header class="custom-header-10">
     <nav class="navbar navbar-expand-lg " style="background-color: orangered">
+
         <div class="container-fluid d-flex">
             {{--          <a class="navbar-brand" href="#">Navbar</a>--}}
-            <div class="d-flex flex-column align-items-center">
-                <img src="/WhatsApp_Image_2024-06-22_at_18.12.31_a31864d9-removebg-preview (1).png" alt=""
-                     style="width: 100px">
-                <h3 style="font-size: 32px; font-weight: 600">Zm Enterprises</h3>
-                <p class="text-white">Let's Work Together</p>
-            </div>
+            <a href="/" style="text-decoration: none; color: #000000">
+                <div class="d-flex flex-column align-items-center">
+
+                    <img src="/WhatsApp_Image_2024-06-22_at_18.12.31_a31864d9-removebg-preview (1).png" alt=""
+                         style="width: 100px">
+
+                    <h3 style="font-size: 32px; font-weight: 600">Zm Enterprises</h3>
+                    <p class="text-white">Let's Work Together</p>
+
+                </div>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -121,23 +127,29 @@
     </div>
 
 
-    <div class="d-flex justify-content-center" style="padding-left: 180px;
-    padding-right: 180px; gap: 45px; margin-top: 30px">
+    <div class="d-flex justify-content-center"
+         style="padding-left: 180px;padding-right: 180px; gap: 45px; margin-top: 30px">
         <div class="d-flex flex-column">
             <div class="pie-container">
-                <a href="/product"><canvas id="pieCanvas" height="180" width="180"></canvas></a>
+                <a href="/product">
+                    <canvas id="pieCanvas" height="180" width="180"></canvas>
+                </a>
             </div>
             <span style="font-weight: bold">Packaged Chemical Drums</span>
         </div>
         <div class="d-flex flex-column">
             <div class="pie-container">
-                <a href="/product"><canvas id="pieCanvas2" height="180" width="180"></canvas></a>
+                <a href="/product">
+                    <canvas id="pieCanvas2" height="180" width="180"></canvas>
+                </a>
             </div>
             <span class="text-center " style="font-weight: bold">Fumed Silica</span>
         </div>
         <div class="d-flex flex-column">
             <div class="pie-container">
-                <a href="/product"> <canvas id="pieCanvas3" height="180" width="180"></canvas></a>
+                <a href="/product">
+                    <canvas id="pieCanvas3" height="180" width="180"></canvas>
+                </a>
             </div>
             <span class="text-center" style="font-weight:bold;">Chemicals Drums</span>
         </div>
@@ -145,17 +157,27 @@
 
     <div class="d-flex flex-column align-items-center" style="margin-top: 60px">
         <div style="margin-bottom: 30px">
-            <h3 style="font-size: 45px; font-weight: bold">We deliver all over <span style="color: orangered">Pakistan</span></h3>
+            <h3 style="font-size: 45px; font-weight: bold">We deliver all over <span
+                    style="color: orangered">Pakistan</span></h3>
         </div>
         <div>
             <img src="/pngwing.com.png" alt="" style="width: 550px">
         </div>
     </div>
 
-    <div>
+    <div style="margin-top: 45px ; border-bottom: orangered 1px solid; border-top: 1px solid orangered;">
 
-        <h3></h3>
+        <h3 class="text-center" style="margin-bottom: 15px; margin-top: 15px">Call us today at <span style="color: orangered">+92-42-35291046</span>
+            or Email us at <span style="color: orangered">info@zmchemicals.com</span></h3>
 
+        <p class="text-center" style="font-weight: 300; margin-top: 20px">
+            We strive to provide Our Customers with Top Notch Support to make their Experience Wonderful
+        </p>
+
+        <div class="d-flex justify-content-center" style="margin-bottom: 15px;">
+            <a href="http://" class="btn custom-button-shedule">Schedule
+                a Meetup</a>
+        </div>
     </div>
 </section>
 <footer class="container-fluid" style="padding: 0; background-color: orangered">
